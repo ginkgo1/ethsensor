@@ -408,18 +408,18 @@ No se describen estos pasos con mas detalle porque son análogos a la
 práctica número 1.
 
 A continuación se ejecuta el programa en Rust para introducir 10 valores
-aleatorios de temperatura en el smart contract. Ver @fig:rustexec
+aleatorios de temperatura en el smart contract.
 
-![Ejecución del cliente Rust](fig/rustexec.png){#fig:rustexec width=70%}
+![Ejecución del cliente Rust](fig/rustexec.png)
 
 Se obtiene el hash de la transacción y comprobamos en etherscan.io que
-se completa correctamente transcurridos unos segundos (@fig:transaccion).
+se completa correctamente transcurridos unos segundos.
 También vemos el listado de todas las transacciones realizadas en el
-contrato con las diversas pruebas realizadas (@fig:contrato).
+contrato con las diversas pruebas realizadas.
 
-![Transacción en etherscan.io](fig/transaccion.png){#fig:transaccion width=70%}
+![Transacción en etherscan.io](fig/transaccion.png)
 
-![Transacciones en el contrato](fig/contrato.png){#fig:contrato width=100%}
+![Transacciones en el contrato](fig/contrato.png)
 
 La aplicación cliente en javascript nos permite visualizar los valores que
 han sido añadidos consultando la blockchain. Esta aplicación se puede
@@ -429,7 +429,7 @@ web, al que se puede acceder directamente ahora mismo para ver los datos:
 [cliente web ehtsensor](https://ethsensor.mirlo.org) en
 `https://ethsensor.mirlo.org`.
 
-![Aplicación javascript con Vue](fig/vueapp.png){#fig:vueapp width=100%}
+![Aplicación javascript con Vue](fig/vueapp.png)
 
 
 
@@ -499,11 +499,3 @@ Copiar el contenido de la carpeta `build/` al servidor de producción.
 - [Rust Web3 connect to Ethereum blockchain - TMS Developer Blog](https://tms-dev-blog.com/rust-web3-connect-to-ethereum/)
 - [tomusdrw/rust-web3: Ethereum JSON-RPC multi-transport client. Rust implementation of web3 library](https://github.com/tomusdrw/rust-web3)
 - [Ethereum for Rust developers | ethereum.org](https://ethereum.org/en/developers/docs/programming-languages/rust/)
-
-
-# Repositorio Git
-
-
-Repositorio Git del proyecto ethsensor disponible en:
-
-    https://github.com/marcormc/ethsensor
