@@ -36,7 +36,7 @@ async fn main() -> web3::Result<()> {
     let contract_addr = Address::from_str(&env::var("CONTRACT_ADDRESS").unwrap()).unwrap();
     let contract = Contract::from_json(
         web3s.eth(), contract_addr,
-        include_bytes!("../../erc20_sensor_abi.json")).unwrap();
+        include_bytes!("../../solidity/erc20_sensor_abi.json")).unwrap();
 
     // Read value from smart contract
     let result = contract.query("read", (1_u32,), None, Options::default(), None);
